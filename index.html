@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--are we going to use bootstrap?-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="/assets/style.css">
     <title>enter agreed title here</title>
 </head>
 
 <body>
    <header>
+
      <!--an example navbar from bootstrap, this can be removed or changed-->
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -21,15 +22,37 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="#">Recipes</a>
-                <a class="nav-link" href="#">enter navbar info</a>
-                <a class="nav-link disabled">enter navbar info</a>
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Recipes</a>
+                    <a class="nav-link" href="#">enter navbar info</a>
+                    <a class="nav-link disabled">enter navbar info</a>
                 </div>
             </div>
         </nav>
     </header>
 
+    <!-- Main Jumbotron with Title and mini description of the app goes here   -->
 
 
+
+    <!--  Form goes here with search  -->
+
+    <form id="search-form" class="form">
+        <div class="form-inline form-group">
+          <div class="input-group">
+            <input class="form-input recipe-search" type="text" id="search-input" placeholder="Enter your Ingredient here!"
+              aria-labelledby="form-heading" aria-controls="today forecast" />
+            <div class="input-group-append">
+              <button type="submit" class="btn search-button" id="search-button" aria-label="submit search">
+                Search
+              </button>
+              <hr class="hr receipe-hr" />
+            </div>
+          </div>
+        </div>
+      </form>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/script.js"></script>
 </body>
