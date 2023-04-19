@@ -42,20 +42,14 @@
 
     <!--  Form goes here with search  -->
 
-    <form id="search-form" class="form">
-        <div class="form-inline form-group">
-          <div class="input-group">
-            <input class="form-input recipe-search" type="text" id="search-input" placeholder="Enter your Ingredient here!"
-              aria-labelledby="form-heading" aria-controls="today forecast" />
-            <div class="input-group-append">
-              <button type="submit" class="btn search-button" id="search-button" aria-label="submit search">
-                Search
-              </button>
-              <hr class="hr receipe-hr" />
-            </div>
-          </div>
-        </div>
-    </form>
+    <form class="needs-validation" novalidate>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationCustom01">Enter Ingredient to perform recipe search</label>
+            <input type="text" class="form-control" value="Enter your Ingredient here!" required>
+        <div class="form-group">
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
 
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
