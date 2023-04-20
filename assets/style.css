@@ -1,3 +1,13 @@
 .recipe-search {
     width: 400px !important;
   }
+
+
+#recipeBackground {
+    background-image: url(/assets/images/food1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
