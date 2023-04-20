@@ -2,6 +2,9 @@
     width: 400px !important;
   }
 
+  .jumbotron {
+    padding-right: 1160px;
+  }
 
 #recipeBackground {
     background-image: url(./images/food1.jpg);
