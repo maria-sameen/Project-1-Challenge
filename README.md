@@ -1,4 +1,9 @@
-# Recipe Finder & Nutrition App
+# Recipe Finder & GIF App
+
+This project...
+
+
+
 
 ## Description
 
@@ -19,7 +24,7 @@
 
 ## Credits
 API Key: https://rapidapi.com/apininjas/api/recipe-by-api-ninjas/
-API Key: https://rapidapi.com/apininjas/api/nutrition-by-api-ninjas
+API Key: //gif link
 
 
 
