@@ -4,7 +4,7 @@
 
 
 #recipeBackground {
-    background-image: url(/assets/images/food1.jpg);
+    background-image: url(./images/food1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
