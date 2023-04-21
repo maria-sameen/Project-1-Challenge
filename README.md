@@ -3,12 +3,12 @@
 This application is designed to produce recipes from a single search of an ingredient....
 
 
+<br>
 
-
-User Story
-AS AN individual interested in cooking
-I WANT to find recipes based on an ingredient that I have available
-SO THAT I can interesting meals
+User Story <br>
+AS AN individual interested in cooking <br>
+I WANT to find a recipe based on an ingredient that I have available <br>
+SO THAT I can make interesting meals
 
 
 
