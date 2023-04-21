@@ -36,5 +36,22 @@ $(document).ready(function () {
             return;
         }
 
-        
-    }
+        const {
+            title,
+            ingredients,
+            servings,
+            instructions,
+          } = response[0];
+    
+          const result = `
+          <h2>${title}</h2>
+          <h4>Servings: ${servings}</h4>
+          <h4>Ingredients</h4>
+          <ul>${ingredients}</ul>
+          <h4>Instructions</h4>
+          <p>${instructions}</p>
+        `;
+      
+        $("#result").html(result);
+      }
+    });
