@@ -29,3 +29,12 @@ $(document).ready(function () {
     });
 
 // Needs remaining code here to return results to the display
+
+    function displayResults(response) {
+        if (!response || response.length === 0) {
+            $("#result").html("<h4>Sorry! No valid recipe found, check your input.</h4>");
+            return;
+        }
+
+        
+    }
