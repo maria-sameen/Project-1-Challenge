@@ -5,6 +5,11 @@ This application is designed to produce recipes from a single search of an ingre
 
 
 
+User Story
+AS AN individual interested in cooking
+I WANT to find recipes based on an ingredient that I have available
+SO THAT I can interesting meals
+
 
 
 
@@ -22,7 +27,7 @@ This application is designed to produce recipes from a single search of an ingre
 
 ## Usage
 
-
+//add in screenshots
 
 
 
