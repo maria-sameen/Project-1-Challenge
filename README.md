@@ -1,6 +1,10 @@
 # Recipe Finder & GIF App
 
-This project...
+This application is designed to produce recipes from a single search of an ingredient....
+
+
+
+
 
 
 
@@ -24,7 +28,8 @@ This project...
 
 ## Credits
 API Key: https://rapidapi.com/apininjas/api/recipe-by-api-ninjas/
-API Key: //gif link
+<br>
+API Key: https://developers.giphy.com/
 
 
 
