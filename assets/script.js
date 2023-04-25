@@ -72,7 +72,7 @@ $(document).ready(function () {
           <h2>${title}</h2>
           <h4>Servings: ${servings}</h4>
           <h4>Ingredients</h4>
-          <ul>${ingredients}</ul>
+          <ul>${ingredients.replace(/\|/g, '<br></br>')}</ul>
           <h4>Instructions</h4>
           <p>${instructions}</p>
         `;
