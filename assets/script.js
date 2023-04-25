@@ -1,4 +1,3 @@
-
 // Main function block, prevent default to start things off, followed by the API call.
 $(document).ready(function () {
     $("#searchButton").on("click", function (event) {
@@ -12,6 +11,31 @@ $(document).ready(function () {
       recipeSearch(ingredient);
       gifSearch(ingredient);
     });
+
+     // Function to update the history list with the name of the searched ingredient.
+     let historyItems = [];
+
+     function updateHistoryList(ingredient) {
+      if (historyItems.includes(ingredient)) {
+        // if the Ingredient already exists in history, skip adding it again.
+        return;
+      }
+      // Add ingredient to history and store in array
+      const historyList = $("#history");
+      const button = $("<button>", {
+        class: "list-group-item ingredient-history",
+        text: ingredient,
+        click: function() {
+          const ingredient = $(this).text();
+          // Update the value of the input field with the clicked ingredient
+          $("#ingredientInput").val(ingredient);
+          recipeSearch(ingredient);
+          gifSearch(ingredient);
+        }
+      });
+      historyList.append(button);
+      historyItems.push(ingredient);
+    }
   
     function recipeSearch(ingredient) {
       const apiKey = "ef97436974msha2f90f1e83d332fp1e6007jsnc60c6c3cc314";
@@ -30,6 +54,7 @@ $(document).ready(function () {
   
       $.ajax(settings).done(function (response) {
         displayResults(response);
+        updateHistoryList(ingredient);
       });
     }
   
@@ -54,7 +79,7 @@ $(document).ready(function () {
       });
     }
 
-// Needs remaining code here to return results to the display
+    // Needs remaining code here to return results to the display
     //First the Recipe data
     function displayResults(response) {
       if (!response || response.length === 0) {
