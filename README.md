@@ -1,6 +1,6 @@
 # Recipe Finder & GIF App
 
-This application is designed to produce recipes from a single search of an ingredient....
+This application is designed to produce recipes from a single search of an ingredient.
 
 
 <br>
@@ -21,13 +21,18 @@ SO THAT I can make interesting meals
 
 ## Installation
 
-//link
+//url 
 
 
 
 ## Usage
 
-//add in screenshots
+Screenshot of the app homepage:
+![Recipe Finder & GIF App](./assets/images/App%20Screenshot.png)
+
+
+Example of an ingredient search plus generated GIF:
+![Recipe Finder & GIF App](./assets/images/Tomato%20ingredient%20search.png)
 
 
 
