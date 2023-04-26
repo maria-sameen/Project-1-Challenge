@@ -25,9 +25,10 @@ $(document).ready(function () {
       const button = $("<button>", {
         class: "list-group-item ingredient-history",
         text: ingredient,
-        click: function() {
-          const ingredient = $(this).text();
-          // Update the value of the input field with the clicked ingredient
+        "data-ingredient": ingredient,
+        click: function(event) {
+          event.preventDefault();
+          const ingredient = $(this).data("ingredient");
           $("#ingredientInput").val(ingredient);
           recipeSearch(ingredient);
           gifSearch(ingredient);
