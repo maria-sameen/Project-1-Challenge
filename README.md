@@ -29,11 +29,11 @@ https://halcyonlegion.github.io/Project-1-Challenge/
 ## Usage
 
 Screenshot of the app homepage:
-![Recipe Finder & GIF App](./assets/images/App%20Screenshot.png)
+![Recipe Finder & GIF App](./assets/images/Updated%20app%20screenshot.png)
 
 
 Example of an ingredient search plus generated GIF:
-![Recipe Finder & GIF App](./assets/images/Tomato%20ingredient%20search.png)
+![Recipe Finder & GIF App](./assets/images/Updated%20tomato%20ingredient%20search.png)
 
 
 
