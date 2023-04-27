@@ -40,7 +40,7 @@ $(document).ready(function () {
   
     function recipeSearch(ingredient) {
       // CHANGE API KEY HERE (RECIPE NINJAS)
-      const apiKey = "ef97436974msha2f90f1e83d332fp1e6007jsnc60c6c3cc314";
+      const apiKey = "177cccf4c3msh0222949971f784ap1a03fcjsnd8b2ad800fcb";
       const apiUrl = `https://recipe-by-api-ninjas.p.rapidapi.com/v1/recipe?query=${encodeURIComponent(ingredient)}`;
   
       const settings = {
@@ -62,7 +62,7 @@ $(document).ready(function () {
   
     function gifSearch(ingredient) {
       //CHANGE API KEY HERE (GIPHY)
-      const apiKey = "nMb9knF7L832gcVaisVbvgZjUVLdDsif";
+      const apiKey = "pFPrxiWdwAtZ7DKu0oUsH3XyFIa7kt5l";
       // You can adjust the limit here for the results, and the maturity - it is set to return 10 results but one is picked by the function below, the rating is set to G which I hope means Universal (i.e. family friendly).
       const apiUrl = `https://giphy.p.rapidapi.com/v1/gifs/search?api_key=${apiKey}&q=${encodeURIComponent(ingredient)}&limit=10&offset=0&rating=g&lang=en`;
   
