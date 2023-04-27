@@ -18,6 +18,8 @@ SO THAT I can make interesting meals
 This app has a simple and user-friendly interface that includes a navbar, a main Jumbotron with a title and a brief description of the
 app, a form with an input field and a search button, and two sections for displaying the search results and GIFs.
 
+We wanted to create an application which provided a seamless ad-free and highly responsive experience for the user. The user may find themself searching for multiple ingredients to see all the different GIFs but along the way they are also picking up some pretty cool recipes and ideas.
+
 ## Installation
 
 Link to deployed application:
