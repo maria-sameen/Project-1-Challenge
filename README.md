@@ -45,7 +45,9 @@ API Key: https://rapidapi.com/apininjas/api/recipe-by-api-ninjas/
 <br>
 API Key: https://developers.giphy.com/
 
+This application was created by Project Team 3!
 
+Lee Webb  *  Jean Chan  *  Maria Sameen
 
 ## License
 
