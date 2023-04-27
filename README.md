@@ -16,8 +16,8 @@ SO THAT I can make interesting meals
 
 ## Description
 
-
-
+This app has a simple and user-friendly interface that includes a navbar, a main Jumbotron with a title and a brief description of the
+app, a form with an input field and a search button, and two sections for displaying the search results and GIFs.
 
 ## Installation
 
